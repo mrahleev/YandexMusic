@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B279FA24FEC53D00F34169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B279F924FEC53D00F34169 /* AppDelegate.swift */; };
+		B9B279FC24FEC54000F34169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FB24FEC54000F34169 /* Assets.xcassets */; };
+		B9B279FF24FEC54000F34169 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FD24FEC54000F34169 /* MainMenu.xib */; };
+		B9B27A0B24FEC54000F34169 /* Yandex_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B27A0A24FEC54000F34169 /* Yandex_MusicTests.swift */; };
+		B9B27A1624FEC54000F34169 /* Yandex_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B27A1524FEC54000F34169 /* Yandex_MusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B27A0724FEC54000F34169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B279EE24FEC53D00F34169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B279F524FEC53D00F34169;
+			remoteInfo = "Yandex Music";
+		};
+		B9B27A1224FEC54000F34169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B279EE24FEC53D00F34169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B279F524FEC53D00F34169;
+			remoteInfo = "Yandex Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9B279F624FEC53D00F34169 /* Yandex Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yandex Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B279F924FEC53D00F34169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9B279FB24FEC54000F34169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9B279FE24FEC54000F34169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B9B27A0024FEC54000F34169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B27A0124FEC54000F34169 /* Yandex_Music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yandex_Music.entitlements; sourceTree = "<group>"; };
+		B9B27A0624FEC54000F34169 /* Yandex MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yandex MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B27A0A24FEC54000F34169 /* Yandex_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yandex_MusicTests.swift; sourceTree = "<group>"; };
+		B9B27A0C24FEC54000F34169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B27A1124FEC54000F34169 /* Yandex MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yandex MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B27A1524FEC54000F34169 /* Yandex_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yandex_MusicUITests.swift; sourceTree = "<group>"; };
+		B9B27A1724FEC54000F34169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B279F324FEC53D00F34169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0324FEC54000F34169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0E24FEC54000F34169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B279ED24FEC53D00F34169 = {
+			isa = PBXGroup;
+			children = (
+				B9B279F824FEC53D00F34169 /* Yandex Music */,
+				B9B27A0924FEC54000F34169 /* Yandex MusicTests */,
+				B9B27A1424FEC54000F34169 /* Yandex MusicUITests */,
+				B9B279F724FEC53D00F34169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B279F724FEC53D00F34169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B279F624FEC53D00F34169 /* Yandex Music.app */,
+				B9B27A0624FEC54000F34169 /* Yandex MusicTests.xctest */,
+				B9B27A1124FEC54000F34169 /* Yandex MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B279F824FEC53D00F34169 /* Yandex Music */ = {
+			isa = PBXGroup;
+			children = (
+				B9B279F924FEC53D00F34169 /* AppDelegate.swift */,
+				B9B279FB24FEC54000F34169 /* Assets.xcassets */,
+				B9B279FD24FEC54000F34169 /* MainMenu.xib */,
+				B9B27A0024FEC54000F34169 /* Info.plist */,
+				B9B27A0124FEC54000F34169 /* Yandex_Music.entitlements */,
+			);
+			path = "Yandex Music";
+			sourceTree = "<group>";
+		};
+		B9B27A0924FEC54000F34169 /* Yandex MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B27A0A24FEC54000F34169 /* Yandex_MusicTests.swift */,
+				B9B27A0C24FEC54000F34169 /* Info.plist */,
+			);
+			path = "Yandex MusicTests";
+			sourceTree = "<group>";
+		};
+		B9B27A1424FEC54000F34169 /* Yandex MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B27A1524FEC54000F34169 /* Yandex_MusicUITests.swift */,
+				B9B27A1724FEC54000F34169 /* Info.plist */,
+			);
+			path = "Yandex MusicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B279F524FEC53D00F34169 /* Yandex Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B27A1A24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex Music" */;
+			buildPhases = (
+				B9B279F224FEC53D00F34169 /* Sources */,
+				B9B279F324FEC53D00F34169 /* Frameworks */,
+				B9B279F424FEC53D00F34169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yandex Music";
+			productName = "Yandex Music";
+			productReference = B9B279F624FEC53D00F34169 /* Yandex Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B27A0524FEC54000F34169 /* Yandex MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B27A1D24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicTests" */;
+			buildPhases = (
+				B9B27A0224FEC54000F34169 /* Sources */,
+				B9B27A0324FEC54000F34169 /* Frameworks */,
+				B9B27A0424FEC54000F34169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B27A0824FEC54000F34169 /* PBXTargetDependency */,
+			);
+			name = "Yandex MusicTests";
+			productName = "Yandex MusicTests";
+			productReference = B9B27A0624FEC54000F34169 /* Yandex MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9B27A1024FEC54000F34169 /* Yandex MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B27A2024FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicUITests" */;
+			buildPhases = (
+				B9B27A0D24FEC54000F34169 /* Sources */,
+				B9B27A0E24FEC54000F34169 /* Frameworks */,
+				B9B27A0F24FEC54000F34169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B27A1324FEC54000F34169 /* PBXTargetDependency */,
+			);
+			name = "Yandex MusicUITests";
+			productName = "Yandex MusicUITests";
+			productReference = B9B27A1124FEC54000F34169 /* Yandex MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B279EE24FEC53D00F34169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Maksim Rakhleyeu";
+				TargetAttributes = {
+					B9B279F524FEC53D00F34169 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B9B27A0524FEC54000F34169 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B9B279F524FEC53D00F34169;
+					};
+					B9B27A1024FEC54000F34169 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B9B279F524FEC53D00F34169;
+					};
+				};
+			};
+			buildConfigurationList = B9B279F124FEC53D00F34169 /* Build configuration list for PBXProject "Yandex Music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B279ED24FEC53D00F34169;
+			productRefGroup = B9B279F724FEC53D00F34169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B279F524FEC53D00F34169 /* Yandex Music */,
+				B9B27A0524FEC54000F34169 /* Yandex MusicTests */,
+				B9B27A1024FEC54000F34169 /* Yandex MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B279F424FEC53D00F34169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B279FC24FEC54000F34169 /* Assets.xcassets in Resources */,
+				B9B279FF24FEC54000F34169 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0424FEC54000F34169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0F24FEC54000F34169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B279F224FEC53D00F34169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B279FA24FEC53D00F34169 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0224FEC54000F34169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B27A0B24FEC54000F34169 /* Yandex_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B27A0D24FEC54000F34169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B27A1624FEC54000F34169 /* Yandex_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B27A0824FEC54000F34169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B279F524FEC53D00F34169 /* Yandex Music */;
+			targetProxy = B9B27A0724FEC54000F34169 /* PBXContainerItemProxy */;
+		};
+		B9B27A1324FEC54000F34169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B279F524FEC53D00F34169 /* Yandex Music */;
+			targetProxy = B9B27A1224FEC54000F34169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9B279FD24FEC54000F34169 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B279FE24FEC54000F34169 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B27A1824FEC54000F34169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9B27A1924FEC54000F34169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B9B27A1B24FEC54000F34169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Yandex Music/Yandex_Music.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Yandex Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9B27A1C24FEC54000F34169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Yandex Music/Yandex_Music.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Yandex Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B9B27A1E24FEC54000F34169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				INFOPLIST_FILE = "Yandex MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yandex Music.app/Contents/MacOS/Yandex Music";
+			};
+			name = Debug;
+		};
+		B9B27A1F24FEC54000F34169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				INFOPLIST_FILE = "Yandex MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yandex Music.app/Contents/MacOS/Yandex Music";
+			};
+			name = Release;
+		};
+		B9B27A2124FEC54000F34169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				INFOPLIST_FILE = "Yandex MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Yandex Music";
+			};
+			name = Debug;
+		};
+		B9B27A2224FEC54000F34169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KM97TVLHSC;
+				INFOPLIST_FILE = "Yandex MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mr.Yandex-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Yandex Music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B279F124FEC53D00F34169 /* Build configuration list for PBXProject "Yandex Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B27A1824FEC54000F34169 /* Debug */,
+				B9B27A1924FEC54000F34169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B27A1A24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B27A1B24FEC54000F34169 /* Debug */,
+				B9B27A1C24FEC54000F34169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B27A1D24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B27A1E24FEC54000F34169 /* Debug */,
+				B9B27A1F24FEC54000F34169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B27A2024FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B27A2124FEC54000F34169 /* Debug */,
+				B9B27A2224FEC54000F34169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B279EE24FEC53D00F34169 /* Project object */;
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095B67E08F2BCA89E2F59442 /* Pods_Yandex_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5587C1DF8EF4E2FDE39258 /* Pods_Yandex_Music.framework */; };
+		3CCE49B006AD4502F8259C97 /* Pods_Yandex_MusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C80097C92EE73454BB8979 /* Pods_Yandex_MusicTests.framework */; };
+		7C9B83DDCA60EA2C91CF5BB3 /* Pods_Yandex_Music_Yandex_MusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C57E64288134E52AE2586B /* Pods_Yandex_Music_Yandex_MusicUITests.framework */; };
 		B9B279FA24FEC53D00F34169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B279F924FEC53D00F34169 /* AppDelegate.swift */; };
 		B9B279FC24FEC54000F34169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FB24FEC54000F34169 /* Assets.xcassets */; };
 		B9B279FF24FEC54000F34169 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FD24FEC54000F34169 /* MainMenu.xib */; };
@@ -32,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5587C1DF8EF4E2FDE39258 /* Pods_Yandex_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yandex_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C57E64288134E52AE2586B /* Pods_Yandex_Music_Yandex_MusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yandex_Music_Yandex_MusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		293CAF1BEC3AE18B6E32371B /* Pods-Yandex Music-Yandex MusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex Music-Yandex MusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yandex Music-Yandex MusicUITests/Pods-Yandex Music-Yandex MusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFA44C3A3B89CE2848E5A50 /* Pods-Yandex MusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex MusicTests.debug.xcconfig"; path = "Target Support Files/Pods-Yandex MusicTests/Pods-Yandex MusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94C80097C92EE73454BB8979 /* Pods_Yandex_MusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yandex_MusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A740967A9E3CBA5CFCE9F7F9 /* Pods-Yandex Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex Music.release.xcconfig"; path = "Target Support Files/Pods-Yandex Music/Pods-Yandex Music.release.xcconfig"; sourceTree = "<group>"; };
+		B3CA8A15A17149A00F38E522 /* Pods-Yandex Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex Music.debug.xcconfig"; path = "Target Support Files/Pods-Yandex Music/Pods-Yandex Music.debug.xcconfig"; sourceTree = "<group>"; };
 		B9B279F624FEC53D00F34169 /* Yandex Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yandex Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B279F924FEC53D00F34169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B279FB24FEC54000F34169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		B9B27A1124FEC54000F34169 /* Yandex MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yandex MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B27A1524FEC54000F34169 /* Yandex_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yandex_MusicUITests.swift; sourceTree = "<group>"; };
 		B9B27A1724FEC54000F34169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FCAEA9BF80CB1F7146569A /* Pods-Yandex MusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex MusicTests.release.xcconfig"; path = "Target Support Files/Pods-Yandex MusicTests/Pods-Yandex MusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA95AF2786DA7103094A20E9 /* Pods-Yandex Music-Yandex MusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yandex Music-Yandex MusicUITests.release.xcconfig"; path = "Target Support Files/Pods-Yandex Music-Yandex MusicUITests/Pods-Yandex Music-Yandex MusicUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095B67E08F2BCA89E2F59442 /* Pods_Yandex_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCE49B006AD4502F8259C97 /* Pods_Yandex_MusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9B83DDCA60EA2C91CF5BB3 /* Pods_Yandex_Music_Yandex_MusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0F553A988B83FFEA825B47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5587C1DF8EF4E2FDE39258 /* Pods_Yandex_Music.framework */,
+				25C57E64288134E52AE2586B /* Pods_Yandex_Music_Yandex_MusicUITests.framework */,
+				94C80097C92EE73454BB8979 /* Pods_Yandex_MusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9B279ED24FEC53D00F34169 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,8 @@
 				B9B27A0924FEC54000F34169 /* Yandex MusicTests */,
 				B9B27A1424FEC54000F34169 /* Yandex MusicUITests */,
 				B9B279F724FEC53D00F34169 /* Products */,
+				DFC58CD31C9557C0C8BEB2D3 /* Pods */,
+				B0F553A988B83FFEA825B47F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +148,20 @@
 			path = "Yandex MusicUITests";
 			sourceTree = "<group>";
 		};
+		DFC58CD31C9557C0C8BEB2D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA8A15A17149A00F38E522 /* Pods-Yandex Music.debug.xcconfig */,
+				A740967A9E3CBA5CFCE9F7F9 /* Pods-Yandex Music.release.xcconfig */,
+				293CAF1BEC3AE18B6E32371B /* Pods-Yandex Music-Yandex MusicUITests.debug.xcconfig */,
+				DA95AF2786DA7103094A20E9 /* Pods-Yandex Music-Yandex MusicUITests.release.xcconfig */,
+				4AFA44C3A3B89CE2848E5A50 /* Pods-Yandex MusicTests.debug.xcconfig */,
+				D8FCAEA9BF80CB1F7146569A /* Pods-Yandex MusicTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B27A1A24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex Music" */;
 			buildPhases = (
+				A80FDF896394F5FEAF25CE68 /* [CP] Check Pods Manifest.lock */,
 				B9B279F224FEC53D00F34169 /* Sources */,
 				B9B279F324FEC53D00F34169 /* Frameworks */,
 				B9B279F424FEC53D00F34169 /* Resources */,
@@ -145,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B27A1D24FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicTests" */;
 			buildPhases = (
+				7213E5CE9FB462C8C43556B0 /* [CP] Check Pods Manifest.lock */,
 				B9B27A0224FEC54000F34169 /* Sources */,
 				B9B27A0324FEC54000F34169 /* Frameworks */,
 				B9B27A0424FEC54000F34169 /* Resources */,
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B27A2024FEC54000F34169 /* Build configuration list for PBXNativeTarget "Yandex MusicUITests" */;
 			buildPhases = (
+				0727A65BC53830E8409E83EA /* [CP] Check Pods Manifest.lock */,
 				B9B27A0D24FEC54000F34169 /* Sources */,
 				B9B27A0E24FEC54000F34169 /* Frameworks */,
 				B9B27A0F24FEC54000F34169 /* Resources */,
@@ -245,6 +289,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0727A65BC53830E8409E83EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yandex Music-Yandex MusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7213E5CE9FB462C8C43556B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yandex MusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80FDF896394F5FEAF25CE68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yandex Music-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9B279F224FEC53D00F34169 /* Sources */ = {
@@ -413,6 +526,7 @@
 		};
 		B9B27A1B24FEC54000F34169 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CA8A15A17149A00F38E522 /* Pods-Yandex Music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Yandex Music/Yandex_Music.entitlements";
@@ -433,6 +547,7 @@
 		};
 		B9B27A1C24FEC54000F34169 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A740967A9E3CBA5CFCE9F7F9 /* Pods-Yandex Music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Yandex Music/Yandex_Music.entitlements";
@@ -453,6 +568,7 @@
 		};
 		B9B27A1E24FEC54000F34169 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFA44C3A3B89CE2848E5A50 /* Pods-Yandex MusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +591,7 @@
 		};
 		B9B27A1F24FEC54000F34169 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FCAEA9BF80CB1F7146569A /* Pods-Yandex MusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +614,7 @@
 		};
 		B9B27A2124FEC54000F34169 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293CAF1BEC3AE18B6E32371B /* Pods-Yandex Music-Yandex MusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +635,7 @@
 		};
 		B9B27A2224FEC54000F34169 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA95AF2786DA7103094A20E9 /* Pods-Yandex Music-Yandex MusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

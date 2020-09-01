@@ -1,0 +1,6 @@
+framework module Pods_Yandex_Music {
+  umbrella header "Pods-Yandex Music-umbrella.h"
+
+  export *
+  module * { export * }
+}

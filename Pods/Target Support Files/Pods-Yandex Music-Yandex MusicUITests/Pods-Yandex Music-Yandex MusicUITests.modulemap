@@ -1,0 +1,6 @@
+framework module Pods_Yandex_Music_Yandex_MusicUITests {
+  umbrella header "Pods-Yandex Music-Yandex MusicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,12 +8,12 @@
 
 import Foundation
 
-protocol PassportServiceProtocol {
+protocol AuthServiceProtocol {
     func start(login: String, completion: @escaping Completion<String>)
     func auth(trackId: String, password: String, completion: @escaping Completion<User>)
 }
 
-final class AuthService: PassportServiceProtocol {
+final class AuthService: AuthServiceProtocol {
     private let networkManager = NetworkManager()
 
     // MARK:

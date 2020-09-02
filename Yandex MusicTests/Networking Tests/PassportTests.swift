@@ -10,7 +10,7 @@ import XCTest
 @testable import Yandex_Music
 
 class PassportTests: XCTestCase {
-    private let passportService: PassportServiceProtocol = PassportService()
+    private let passportService: AuthServiceProtocol = AuthService()
 
     // MARK:
 
@@ -91,7 +91,7 @@ class PassportTests: XCTestCase {
             }
         }
 
-        waitForExpectations(timeout: 5) { (error) in
+        waitForExpectations(timeout: 10) { (error) in
             XCTAssertNotNil(authUser)
         }
     }

@@ -16,7 +16,7 @@
 		B90F5F0424FECD840060BCF7 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5EFE24FECD840060BCF7 /* APIRouter.swift */; };
 		B90F5F0624FECE670060BCF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0524FECE670060BCF7 /* Constants.swift */; };
 		B90F5F0824FECFD30060BCF7 /* PassportRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0724FECFD30060BCF7 /* PassportRouter.swift */; };
-		B90F5F0A24FECFEF0060BCF7 /* PassportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0924FECFEF0060BCF7 /* PassportService.swift */; };
+		B90F5F0A24FECFEF0060BCF7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0924FECFEF0060BCF7 /* AuthService.swift */; };
 		B90F5F1724FED1D50060BCF7 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0D24FED1D50060BCF7 /* URL+Utils.swift */; };
 		B90F5F1824FED1D50060BCF7 /* Int+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F0E24FED1D50060BCF7 /* Int+Utils.swift */; };
 		B90F5F1B24FED1D50060BCF7 /* NSObject+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F1224FED1D50060BCF7 /* NSObject+Utils.swift */; };
@@ -27,9 +27,14 @@
 		B90F5F2624FED93C0060BCF7 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F2524FED93C0060BCF7 /* Dictionary+Utils.swift */; };
 		B90F5F2824FEE2AE0060BCF7 /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F2724FEE2AE0060BCF7 /* TestConstants.swift */; };
 		B90F5F2B24FEEE670060BCF7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F2A24FEEE670060BCF7 /* User.swift */; };
+		B90F5F2E24FFA48D0060BCF7 /* AuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90F5F2D24FFA48D0060BCF7 /* AuthVC.xib */; };
+		B90F5F3024FFA49E0060BCF7 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F2F24FFA49E0060BCF7 /* AuthVC.swift */; };
+		B90F5F3324FFBBA20060BCF7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F3224FFBBA20060BCF7 /* MainVC.swift */; };
+		B90F5F3724FFBC380060BCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90F5F3624FFBC380060BCF7 /* Main.storyboard */; };
+		B90F5F3924FFBDC10060BCF7 /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F5F3824FFBDC10060BCF7 /* AuthVM.swift */; };
+		B9862621250024E000D8E4AB /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9862620250024E000D8E4AB /* AuthError.swift */; };
 		B9B279FA24FEC53D00F34169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B279F924FEC53D00F34169 /* AppDelegate.swift */; };
 		B9B279FC24FEC54000F34169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FB24FEC54000F34169 /* Assets.xcassets */; };
-		B9B279FF24FEC54000F34169 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B279FD24FEC54000F34169 /* MainMenu.xib */; };
 		B9B27A1624FEC54000F34169 /* Yandex_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B27A1524FEC54000F34169 /* Yandex_MusicUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +69,7 @@
 		B90F5EFE24FECD840060BCF7 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		B90F5F0524FECE670060BCF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B90F5F0724FECFD30060BCF7 /* PassportRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportRouter.swift; sourceTree = "<group>"; };
-		B90F5F0924FECFEF0060BCF7 /* PassportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportService.swift; sourceTree = "<group>"; };
+		B90F5F0924FECFEF0060BCF7 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B90F5F0D24FED1D50060BCF7 /* URL+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
 		B90F5F0E24FED1D50060BCF7 /* Int+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Utils.swift"; sourceTree = "<group>"; };
 		B90F5F1224FED1D50060BCF7 /* NSObject+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Utils.swift"; sourceTree = "<group>"; };
@@ -75,10 +80,15 @@
 		B90F5F2524FED93C0060BCF7 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
 		B90F5F2724FEE2AE0060BCF7 /* TestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
 		B90F5F2A24FEEE670060BCF7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B90F5F2D24FFA48D0060BCF7 /* AuthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthVC.xib; sourceTree = "<group>"; };
+		B90F5F2F24FFA49E0060BCF7 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		B90F5F3224FFBBA20060BCF7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B90F5F3624FFBC380060BCF7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B90F5F3824FFBDC10060BCF7 /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
+		B9862620250024E000D8E4AB /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		B9B279F624FEC53D00F34169 /* Yandex Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yandex Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B279F924FEC53D00F34169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B279FB24FEC54000F34169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9B279FE24FEC54000F34169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B9B27A0024FEC54000F34169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B27A0124FEC54000F34169 /* Yandex_Music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yandex_Music.entitlements; sourceTree = "<group>"; };
 		B9B27A0624FEC54000F34169 /* Yandex MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yandex MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +151,8 @@
 		B90F5EF624FECD840060BCF7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				B90F5F0924FECFEF0060BCF7 /* PassportService.swift */,
+				B90F5F0924FECFEF0060BCF7 /* AuthService.swift */,
+				B9862620250024E000D8E4AB /* AuthError.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -203,6 +214,26 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B90F5F2C24FF9CEA0060BCF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B90F5F3124FFBB970060BCF7 /* Auth */,
+				B90F5F3224FFBBA20060BCF7 /* MainVC.swift */,
+				B90F5F3624FFBC380060BCF7 /* Main.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B90F5F3124FFBB970060BCF7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B90F5F2F24FFA49E0060BCF7 /* AuthVC.swift */,
+				B90F5F3824FFBDC10060BCF7 /* AuthVM.swift */,
+				B90F5F2D24FFA48D0060BCF7 /* AuthVC.xib */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		B9B279ED24FEC53D00F34169 = {
 			isa = PBXGroup;
 			children = (
@@ -229,13 +260,13 @@
 			isa = PBXGroup;
 			children = (
 				B9B279F924FEC53D00F34169 /* AppDelegate.swift */,
+				B90F5F0524FECE670060BCF7 /* Constants.swift */,
 				B90F5F0B24FED1D50060BCF7 /* Extensions */,
 				B90F5F1F24FED2710060BCF7 /* Helpers */,
 				B90F5EF824FECD840060BCF7 /* Networking */,
 				B90F5EF624FECD840060BCF7 /* Services */,
 				B90F5F2924FEEE400060BCF7 /* Models */,
-				B90F5F0524FECE670060BCF7 /* Constants.swift */,
-				B9B279FD24FEC54000F34169 /* MainMenu.xib */,
+				B90F5F2C24FF9CEA0060BCF7 /* ViewControllers */,
 				B90F5EF524FECC210060BCF7 /* Supporting files */,
 			);
 			path = "Yandex Music";
@@ -380,8 +411,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90F5F3724FFBC380060BCF7 /* Main.storyboard in Resources */,
 				B9B279FC24FEC54000F34169 /* Assets.xcassets in Resources */,
-				B9B279FF24FEC54000F34169 /* MainMenu.xib in Resources */,
+				B90F5F2E24FFA48D0060BCF7 /* AuthVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,13 +513,17 @@
 				B90F5F0424FECD840060BCF7 /* APIRouter.swift in Sources */,
 				B90F5F2B24FEEE670060BCF7 /* User.swift in Sources */,
 				B90F5F1B24FED1D50060BCF7 /* NSObject+Utils.swift in Sources */,
+				B90F5F3024FFA49E0060BCF7 /* AuthVC.swift in Sources */,
+				B90F5F3924FFBDC10060BCF7 /* AuthVM.swift in Sources */,
 				B9B279FA24FEC53D00F34169 /* AppDelegate.swift in Sources */,
 				B90F5F1C24FED1D50060BCF7 /* Array+Utils.swift in Sources */,
 				B90F5F0224FECD840060BCF7 /* NetworkManager.swift in Sources */,
 				B90F5F0824FECFD30060BCF7 /* PassportRouter.swift in Sources */,
 				B90F5F1824FED1D50060BCF7 /* Int+Utils.swift in Sources */,
 				B90F5F0124FECD840060BCF7 /* URLConvertible.swift in Sources */,
-				B90F5F0A24FECFEF0060BCF7 /* PassportService.swift in Sources */,
+				B9862621250024E000D8E4AB /* AuthError.swift in Sources */,
+				B90F5F3324FFBBA20060BCF7 /* MainVC.swift in Sources */,
+				B90F5F0A24FECFEF0060BCF7 /* AuthService.swift in Sources */,
 				B90F5F0324FECD840060BCF7 /* JSONResponseDecoder.swift in Sources */,
 				B90F5F0624FECE670060BCF7 /* Constants.swift in Sources */,
 				B90F5F1724FED1D50060BCF7 /* URL+Utils.swift in Sources */,
@@ -525,17 +561,6 @@
 			targetProxy = B9B27A1224FEC54000F34169 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B9B279FD24FEC54000F34169 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9B279FE24FEC54000F34169 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B9B27A1824FEC54000F34169 /* Debug */ = {
